@@ -2,6 +2,6 @@
 
 THis is a very simple PHP MVC template.
 
-```html
-<a> <a>
+```php
+<?php echo 'hi'; ?>
 ```
