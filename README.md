@@ -50,11 +50,11 @@ To connect model to controller you should create model_(your controller name) in
 
 # view
 
-now you can recieve data from controller.
+now you can recieve data from controller.just get data in your view page. 
 
-```html
+```php
 <?php
   $name = $data['name'];
-?>
+?>#type this in your html file
 ```
 
