@@ -48,3 +48,13 @@ To connect model to controller you should create model_(your controller name) in
 ?>
 ```
 
+# view
+
+now you can recieve data from controller.
+
+```html
+<?php
+  $name = $data['name'];
+?>
+```
+
