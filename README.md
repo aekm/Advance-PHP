@@ -26,3 +26,25 @@ class Search extends Controller{
 ?>
 ```
 
+# model
+
+To connect model to controller you should create model_(your controller name) in model directory and create a class in it, for example:
+
+```php
+<?php
+ class model_search extends Model
+{
+
+    function __construct()
+    {
+        parent::__construct();
+    }
+    function search(){
+      #your queries 
+      
+    }#to connect this function into search controller just type in specefic function $this->model->search();
+    
+ }
+?>
+```
+
